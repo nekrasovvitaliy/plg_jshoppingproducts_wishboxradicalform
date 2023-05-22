@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" method="upgrade" group="jshoppingproducts">
+	<name>plg_jshoppingproducts_wishboxradicalform</name>
+	<creationDate>April 2023</creationDate>
+	<copyright>Copyright (C) 2014-2023 WishBox. All rights reserved.</copyright>
+	<version>1.0.0</version>
+	<author>Vitaliy Nekrasov</author>
+	<authorEmail>nekrasov_vitaliy@list.ru</authorEmail>
+	<description>PLG_JSHOPPINGPRODUCTS_WISHBOXRADICALFORM_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Plugin\Jshoppingproducts\Wishboxradicalform</namespace>
+	<files>
+		<folder plugin="wishboxradicalform">services</folder>
+		<folder>layouts</folder>
+		<folder>src</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/plg_jshoppingproducts_wishboxradicalform.ini</language>
+		<language tag="en-GB">language/en-GB/plg_jshoppingproducts_wishboxradicalform.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/plg_jshoppingproducts_wishboxradicalform.ini</language>
+		<language tag="ru-RU">language/ru-RU/plg_jshoppingproducts_wishboxradicalform.sys.ini</language>
+		<language tag="uk-UA">language/uk-UA/plg_jshoppingproducts_wishboxradicalform.ini</language>
+		<language tag="uk-UA">language/uk-UA/plg_jshoppingproducts_wishboxradicalform.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="product_position"
+					type="text"
+					label="PLG_JSHOPPINGPRODUCTS_WISHBOXRADICALFORM_FIELD_PRODUCT_POSITION_LABEL"
+					description="PLG_JSHOPPINGPRODUCTS_WISHBOXRADICALFORM_FIELD_PRODUCT_POSITION_DESC"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
